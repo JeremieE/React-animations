@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <div className='header'>
-      <a href="http://jeremiebauder.com"><span className="sp">bdr</span></a>
+      <a href="https://www.jeremiebauder.com/projets/react-animation"><span className="sp">bdr</span></a>
         <div className="center">
             <NavLink
                 to='/'
