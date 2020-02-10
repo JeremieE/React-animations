@@ -2,16 +2,20 @@ import React from "react";
 import { Route } from "react-router-dom";
 import { CSSTransition } from "react-transition-group";
 import { gsap } from "gsap";
-import "./App.scss";
+import "./App.css";
 
 import Cascade from "./pages/cascade";
 import Header from "./components/header";
 import Home from "./pages/home";
+import waterf from "./images/waterfall.webp";
 
 const routes = [
   { path: "/", name: "Home", Component: Home },
   { path: "/cascade", name: "Cascade", Component: Cascade }
 ];
+const sectionStyle = {
+  backgroundImage: "url(" + { waterf } + ")"
+};
 
 function App() {
   const onEnter = node => {
@@ -58,7 +62,7 @@ function App() {
                 onExit={onExit}
                 onEntering={onEnter}
                 unmountOnExit>
-                <div className='page'>
+                <div className='page' style={ sectionStyle }>
                   <Component />
                 </div>
               </CSSTransition>
