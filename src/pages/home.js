@@ -1,6 +1,8 @@
 import React, { useEffect, useRef } from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 import Title from "../components/title";
-import desert from "../images/desert.webp";
+import desert from "../images/desert.jpg";
 import { gsap } from "gsap";
 
 const Home = () => {
@@ -22,7 +24,8 @@ const Home = () => {
       />
       <div className="size">
             <div ref={el => (line2 = el)} className="img-container">
-              <img src={desert} alt="desert"/>
+              <LazyLoadImage alt="desert" effect="blur" src={desert} className="img-box"/>
+              <h2>Webp not support</h2>
             </div>
       </div>
     </div>

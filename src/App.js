@@ -7,7 +7,7 @@ import "./App.css";
 import Cascade from "./pages/cascade";
 import Header from "./components/header";
 import Home from "./pages/home";
-import waterf from "./images/waterfall.webp";
+import waterf from "./images/waterfall.jpg";
 
 const routes = [
   { path: "/", name: "Home", Component: Home },
