@@ -25,7 +25,6 @@ const Home = () => {
       <div className="size">
             <div ref={el => (line2 = el)} className="img-container">
               <LazyLoadImage alt="desert" effect="blur" src={desert} className="img-box"/>
-              <h2>Webp not support</h2>
             </div>
       </div>
     </div>

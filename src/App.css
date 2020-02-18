@@ -119,22 +119,6 @@ p, .other {
   margin-right: auto;
   border-radius: 15px;
 }
-@media not all and (min-resolution:.001dpcm) { @media {
-
-  img{
-    opacity: 0;
-  }
-  .img-container {
-    background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(148,187,233,1) 100%);
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    justify-items: center;
-    align-items: center;
-  }
-
-}}
 h2{
   width: 50%;
   height: 50%;
