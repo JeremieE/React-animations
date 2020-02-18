@@ -9,7 +9,9 @@ body{
 .App-logo {
   height: 40vmin;
 }
-
+.line{
+  opacity: 1;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -143,6 +145,9 @@ html, body {
     overflow-x: hidden;
     height: 100vh;
 }
+.line{
+  opacity: 1;
+}
 .header {
     width: 60vw;
     display: flex;
@@ -218,6 +223,13 @@ p, .other {
   margin-right: auto;
   border-radius: 15px;
 }
+.img-box {
+  position: relative;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+}
 img{
   width: 97vw;
   position: absolute;
@@ -228,6 +240,9 @@ img{
   html, body {
     overflow: hidden;
     height: 100vh;
+  }
+  .line{
+    opacity: 1;
   }
   .center{
     margin-left: auto;
@@ -296,6 +311,13 @@ p, .other {
   position: relative;
   overflow: hidden;
   margin-top: 17%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+}
+.img-box {
+  position: relative;
+  overflow: hidden;
   margin-left: auto;
   margin-right: auto;
   border-radius: 15px;
