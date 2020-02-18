@@ -23,6 +23,7 @@ const Home = () => {
       <div className="size">
             <div ref={el => (line2 = el)} className="img-container">
               <img src={desert} alt="desert"/>
+              <h2>WebP not support</h2>
             </div>
       </div>
     </div>
