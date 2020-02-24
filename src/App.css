@@ -10,7 +10,8 @@ body{
   height: 40vmin;
 }
 .line{
-  opacity: 1;
+  opacity: 0;
+  margin-top: 150px;
 }
 .App-header {
   background-color: #282c34;

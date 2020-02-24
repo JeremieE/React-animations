@@ -21,7 +21,7 @@ function App() {
   const onEnter = node => {
     gsap.from(
       [node.children[0].firstElementChild, node.children[0].lastElementChild],
-      0.6,
+      1,
       {
         y: 30,
         delay: 0.6,
@@ -32,6 +32,7 @@ function App() {
         }
       }
     );
+    console.log(node.children[0].ElementChild);
   };
 
   const onExit = node => {
